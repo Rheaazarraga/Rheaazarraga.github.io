@@ -1,5 +1,16 @@
 section {
   height: 500px;
-  background-color: pink;
+  background-color: rgb(181, 228, 222);
   border: solid black 1px;
+}
+
+.hero {
+  background-color: #1C1D25;
+  height: 100vh;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+
 }
