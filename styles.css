@@ -40,8 +40,9 @@ h1 {
 
 .hero-area {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
   height: 100%;
 }
 
@@ -56,6 +57,9 @@ p {
   font-weight: 300;
 }
 
+.socials {
+  padding-bottom: 200px;
+}
 .button {
   width: 200px;
   height: 55px;
