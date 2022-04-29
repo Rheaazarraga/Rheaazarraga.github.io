@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 section {
   height: 500px;
   background-color: rgb(181, 228, 222);
@@ -36,6 +40,14 @@ h1 {
 .hero-text {
   margin-left: 80px;
 
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(228, 104, 145);
+  text-align: center;
 }
 
 footer {
