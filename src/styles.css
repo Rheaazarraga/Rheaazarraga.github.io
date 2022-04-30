@@ -65,15 +65,15 @@ a {
 }
 
 a.hover-text-about:hover {
-  color: rgb(228, 104, 145)
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
 
 a.hover-text-projects:hover {
-  color: rgb(255, 189, 89)
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
 
 a.hover-text-contact:hover {
-  color: rgb(119, 201, 216)
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
 
 .hero-area {
@@ -140,6 +140,7 @@ a.hover-text-contact:hover {
   display: flex;
   justify-content: space-around;
   padding: 40px;
+  text-align: center;
 }
 
 .personal-info {
@@ -150,7 +151,7 @@ a.hover-text-contact:hover {
 .headshot {
   width: 350px;
   border-radius: 150px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   margin: 10px;
 }
 
