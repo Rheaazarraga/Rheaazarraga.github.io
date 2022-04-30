@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  height: 500px;
+  /* height: 500px; */
   background-color: rgb(181, 228, 222);
   border: solid black 1px;
 }
@@ -96,6 +96,7 @@ p.title {
   color: #808080;
 }
 
+/* ABOUT ME */
 
 .about {
   display: flex;
@@ -108,12 +109,36 @@ p.title {
   word-spacing: 8px;
 }
 
-
 .headshot {
   width: 350px;
   border-radius: 150px;
   padding-top: 50px;
   margin: 10px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+/* PROJECTS */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 450px;
+  height: 500px;
+  border: 1px solid black;
 }
 
 /* FOOTER */
