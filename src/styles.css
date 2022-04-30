@@ -5,7 +5,6 @@ body {
 section {
   /* height: 500px; */
   background-color: #1C1D25;
-  /* border: solid black 1px; */
   color: white;
 }
 
@@ -89,9 +88,27 @@ a.hover-text-contact:hover {
   margin-bottom: 200px;
 }
 
+/* SOCIAL ICONS */
+
 .socials {
   padding-bottom: 200px;
   margin: 20px;
+}
+
+.linkedin:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
+}
+
+.github:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
+}
+
+.email:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
+}
+
+.resume:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
 }
 
 /* BUTTON */
@@ -160,6 +177,7 @@ a.hover-text-contact:hover {
   width: 450px;
   height: 500px;
   border-radius: 50px;
+  margin: 15px;
 }
 
 .project-img {
