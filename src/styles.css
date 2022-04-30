@@ -36,6 +36,10 @@ ul {
   font-size: 30px;
 }
 
+ul.show {
+  display: block;
+}
+
 
 .hamburger {
   display: none;
