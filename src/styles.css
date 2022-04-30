@@ -139,7 +139,6 @@ p.title {
 .project-card {
   width: 450px;
   height: 500px;
-  /* border: 1px solid black; */
   border-radius: 50px;
 }
 
@@ -154,6 +153,16 @@ p.title {
 p.project-description {
   font-size: 15px;
   font-weight: 300;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(255, 189, 89);
+}
+
+hr {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 /* FOOTER */
