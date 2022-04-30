@@ -11,7 +11,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Poppins:wght@300;400;600;700;800&display=swap"
       rel="stylesheet">
-      <script src="https://kit.fontawesome.com/2905f12cda.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2905f12cda.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
   </head>
 
@@ -115,17 +115,19 @@
       </div>
     </section>
 
-    <footer id="contact">
-      <h2>Contact me</h2>
-      <form class="contact-form" action="https://formsubmit.co/rheaazarraga@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New submission!!!">
-        <input type="email" name="email" placeholder="Email Address" required>
-        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> UPDATE when depolyed domain name is created-->
-        <input type="Name" name="name" placeholder="Name" required>
-        <input type="text" name="message" placeholder="Message" required>
-        <button type="submit">Send</button>
-      </form>
-    </footer>
+    <section class="contact" id="contact">
+        <h2>Contact me</h2>
+        <div class="contact-form">
+          <form action="https://formsubmit.co/rheaazarraga@gmail.com" method="POST">
+            <input type="text" class="input-field" placeholder="Name">
+            <input type="text" class="input-field" placeholder="Email">
+            <input type="text" class="input-field" placeholder="Subject">
+            <textarea type="text" class="textarea-field" placeholder="Message"></textarea>
+            <button type="submit" class="button">Let's collab!</button>
+          </form>
+        </div>
+
+    </section>
 
     <script src="src/app.js"></script>
   </body>
