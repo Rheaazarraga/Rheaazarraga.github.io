@@ -5,7 +5,7 @@ body {
 section {
   /* height: 500px; */
   background-color: rgb(181, 228, 222);
-  border: solid black 1px;
+  /* border: solid black 1px; */
 }
 
 /* HERO PAGE */
@@ -138,7 +138,21 @@ p.title {
 .project-card {
   width: 450px;
   height: 500px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 20px rgb(151, 148, 148);
+}
+
+.project-img {
+  margin-top: 25px;
+  width: 430px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+p.project-description {
+  font-size: 15px;
+  font-weight: 300;
 }
 
 /* FOOTER */
