@@ -27,12 +27,32 @@ nav {
   justify-content: space-between;
 }
 
+
 ul {
   display: flex;
   list-style-type: none;
   width: 500px;
   justify-content: space-around;
   font-size: 30px;
+}
+
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+  }
+
+  ul {
+    display: none;
+  }
 }
 
 li {
