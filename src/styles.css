@@ -256,7 +256,18 @@ a.hover-text-contact:hover {
   .project-container {
     display: flex;
     flex-wrap: wrap;
+    text-overflow: clip;
   }
+
+  /* .project-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-link {
+    display: flex;
+    flex-wrap: wrap;
+  } */
 }
 
 .project-container {
@@ -280,7 +291,7 @@ a.hover-text-contact:hover {
   border-radius: 25px;
 }
 
-p.project-description {
+.project-description {
   font-size: 15px;
   font-weight: 300;
 }
@@ -288,11 +299,6 @@ p.project-description {
 .project-link {
   text-decoration: none;
   color: rgb(255, 189, 89);
-}
-
-hr {
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 
@@ -307,6 +313,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
   padding-bottom: 80px;
 }
 
