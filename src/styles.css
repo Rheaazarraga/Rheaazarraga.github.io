@@ -323,7 +323,7 @@ form {
 
 /* HERO AND SOCIALS */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
   #hero-area {
     display: flex;
     flex-wrap: wrap;
@@ -333,8 +333,8 @@ form {
   }
 
   #hero-text {
-    /* margin-left: 80px; */
-    margin-bottom: 25px;
+    /* text-align: inline; */
+    margin-bottom: 30px;
   }
 
   #social-icons {
@@ -348,7 +348,7 @@ form {
 
 
 /* ABOUT SECTION */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
   #about-me {
     display: flex;
     flex-wrap: wrap;
@@ -358,7 +358,7 @@ form {
 
 /* PROJECTS SECTION */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -388,7 +388,7 @@ form {
 
 /* CONTACT SECTION */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
   #contact{
     display: flex;
     flex-wrap: wrap;
