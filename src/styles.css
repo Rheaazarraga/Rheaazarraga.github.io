@@ -322,7 +322,7 @@ form {
 
 /* HERO AND SOCIALS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
 
   #hero-area {
@@ -347,7 +347,7 @@ form {
 
 
 /* ABOUT SECTION */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #about-me {
     font-size: 15px;
     display: flex;
@@ -358,7 +358,7 @@ form {
 
 /* PROJECTS SECTION */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -388,7 +388,7 @@ form {
 
 /* CONTACT SECTION */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
   #contact{
     display: flex;
     flex-wrap: wrap;
