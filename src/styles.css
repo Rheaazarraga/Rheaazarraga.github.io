@@ -41,41 +41,6 @@ ul {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
-  .hamburger {
-    display: block;
-    border: 0;
-    background-color: transparent;
-    color: white;
-    font-size: 35px;
-    margin: 25px;
-    align-self: flex-end;
-  }
-
-  ul {
-    display: none;
-    background-color: #22232c;
-    margin: 0px;
-    align-items: inherit;
-  }
-
-  ul.show {
-    display: block;
-  }
-    
-
-  nav {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: #22232c;
-    overflow: hidden;
-  }
-
-
-  .logo {
-    display: none;
-  }
-}
 
 li {
   text-decoration: none;
@@ -120,31 +85,7 @@ a.hover-text-contact:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
 
-@media only screen and (max-width: 1000px) {
-  #hero-area {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    justify-content: center;
-  
-  }
 
-  #hero-text {
-    /* margin-left: 80px; */
-    margin-bottom: 25px;
-  }
-
-  #social-icons {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  /* #social-icons:hover::before {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px pink;
-  } */
-}
 
 .hero-area {
   display: flex;
@@ -207,12 +148,6 @@ a.hover-text-contact:hover {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  #about-me {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 
 /* ABOUT ME */
 
@@ -252,24 +187,6 @@ a.hover-text-contact:hover {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-overflow: clip;
-  }
-
-  /* .project-descriptions {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .project-link {
-    display: flex;
-    flex-wrap: wrap;
-  } */
-}
-
 .project-container {
   display: flex;
   justify-content: space-around;
@@ -278,7 +195,7 @@ a.hover-text-contact:hover {
 
 .project-card {
   width: 450px;
-  height: 500px;
+  /* height: 500px; */
   border-radius: 50px;
   margin: 15px;
 }
@@ -302,12 +219,6 @@ a.hover-text-contact:hover {
 }
 
 
-@media only screen and (max-width: 1000px) {
-  #contact{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 
 #contact {
   display: flex;
@@ -326,6 +237,7 @@ form {
 .form-button {
   width: 150px;
   height: 45px;
+  border: none;
   border-radius: 35px;
   background-color: rgb(228, 104, 145);
   text-align: center;
@@ -364,4 +276,121 @@ form {
   margin-top: 20px;
   padding-top: 10px;
   border-radius: 15px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* NAV SECTION */
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+    margin: 25px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: #22232c;
+    margin: 0px;
+    align-items: inherit;
+  }
+
+  ul.show {
+    display: block;
+  }
+    
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #22232c;
+    overflow: hidden;
+  }
+
+
+  .logo {
+    display: none;
+  }
+}
+
+
+
+/* HERO AND SOCIALS */
+
+@media only screen and (max-width: 1000px) {
+  #hero-area {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+  
+  }
+
+  #hero-text {
+    /* margin-left: 80px; */
+    margin-bottom: 25px;
+  }
+
+  #social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+
+}
+
+
+/* ABOUT SECTION */
+@media only screen and (max-width: 1000px) {
+  #about-me {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* PROJECTS SECTION */
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+
+  .project-img {
+    width: 275px;
+    height: 250px;
+  }
+
+  .project-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .project-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* CONTACT SECTION */
+
+@media only screen and (max-width: 1000px) {
+  #contact{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
