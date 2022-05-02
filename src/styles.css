@@ -9,7 +9,6 @@ section {
 
 /* HERO PAGE */
 
-
 .hero {
   background-color: #1C1D25;
   height: 100vh;
@@ -17,10 +16,12 @@ section {
   font-size: 40px;
 }
 
+
 .logo {
   height: 85px;
   margin: 30px;
 }
+
 
 nav {
   display: flex;
@@ -46,14 +47,17 @@ li {
   text-decoration: none;
 }
 
+
 li:hover {
   color: rgb(119, 201, 216)
 }
+
 
 h1 {
   font-size: 90px;
   margin: 0;
 }
+
 
 h2 {
   font-size: 50px;
@@ -67,10 +71,12 @@ p.title {
   font-weight: 300;
 }
 
+
 a {
   text-decoration: none;
   color: white;
 }
+
 
 a.hover-text-about:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
@@ -86,7 +92,6 @@ a.hover-text-contact:hover {
 }
 
 
-
 .hero-area {
   display: flex;
   justify-content: space-between;
@@ -94,10 +99,12 @@ a.hover-text-contact:hover {
   height: 100%;
 }
 
+
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
 }
+
 
 /* SOCIAL ICONS */
 
@@ -106,6 +113,7 @@ a.hover-text-contact:hover {
   padding-bottom: 200px;
   margin: 20px;
 }
+
 
 .linkedin:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
@@ -122,6 +130,7 @@ a.hover-text-contact:hover {
 .resume:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
 }
+
 
 /* BUTTON */
 
@@ -148,7 +157,6 @@ a.hover-text-contact:hover {
 }
 
 
-
 /* ABOUT ME */
 
 .about {
@@ -159,10 +167,12 @@ a.hover-text-contact:hover {
 
 }
 
+
 .personal-info {
   font-size: 30px;
   word-spacing: 8px;
 }
+
 
 .headshot {
   width: 350px;
@@ -171,12 +181,15 @@ a.hover-text-contact:hover {
   margin: 10px;
 }
 
+
 .headshot-container {
   display: flex;
   align-items: center;
 }
 
+
 /* PROJECTS */
+
 
 .projects {
   /* height: 300px; */
@@ -200,6 +213,7 @@ a.hover-text-contact:hover {
   margin: 15px;
 }
 
+
 .project-img {
   margin-top: 25px;
   width: 430px;
@@ -208,17 +222,19 @@ a.hover-text-contact:hover {
   border-radius: 25px;
 }
 
+
 .project-description {
   font-size: 15px;
   font-weight: 300;
 }
+
 
 .project-link {
   text-decoration: none;
   color: rgb(255, 189, 89);
 }
 
-
+/* CONTACT  */
 
 #contact {
   display: flex;
@@ -322,7 +338,7 @@ form {
 
 /* HERO AND SOCIALS */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
 
   #hero-area {
@@ -347,7 +363,7 @@ form {
 
 
 /* ABOUT SECTION */
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   #about-me {
     font-size: 15px;
     display: flex;
@@ -358,7 +374,7 @@ form {
 
 /* PROJECTS SECTION */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -388,7 +404,7 @@ form {
 
 /* CONTACT SECTION */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   #contact{
     display: flex;
     flex-wrap: wrap;
