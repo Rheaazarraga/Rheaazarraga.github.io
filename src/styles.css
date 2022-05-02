@@ -109,6 +109,7 @@ a {
 
 a.hover-text-about:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
+    margin-left: 80px;
 }
 
 a.hover-text-projects:hover {
@@ -138,6 +139,11 @@ a.hover-text-contact:hover {
     flex-direction: row;
     gap: 20px;
   }
+
+  /* #social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px pink;
+  } */
 }
 
 .hero-area {
@@ -153,6 +159,7 @@ a.hover-text-contact:hover {
 }
 
 /* SOCIAL ICONS */
+
 
 .socials {
   padding-bottom: 200px;
@@ -300,6 +307,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 
@@ -307,6 +315,30 @@ form {
   width: 400px;
   
 }
+
+.form-button {
+  width: 150px;
+  height: 45px;
+  border-radius: 35px;
+  background-color: rgb(228, 104, 145);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+  color: white;
+}
+
+.form-button:hover {
+  background-color: rgb(255, 189, 89);
+  
+}
+
+.form-button:active {
+  background-color: #B5A9FF;
+  color: #808080;
+}
+
 
 .input-field {
   width: 375px;
