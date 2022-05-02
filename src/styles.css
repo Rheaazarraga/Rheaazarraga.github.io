@@ -231,7 +231,6 @@ a.hover-text-contact:hover {
 
 form {
   width: 400px;
-  
 }
 
 .form-button {
@@ -324,6 +323,8 @@ form {
 /* HERO AND SOCIALS */
 
 @media only screen and (max-width: 480px) {
+
+
   #hero-area {
     display: flex;
     flex-wrap: wrap;
@@ -333,7 +334,6 @@ form {
   }
 
   #hero-text {
-    /* text-align: inline; */
     margin-bottom: 30px;
   }
 
@@ -343,13 +343,13 @@ form {
     gap: 20px;
   }
 
-
 }
 
 
 /* ABOUT SECTION */
 @media only screen and (max-width: 480px) {
   #about-me {
+    font-size: 15px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -392,5 +392,5 @@ form {
   #contact{
     display: flex;
     flex-wrap: wrap;
+    }
   }
-}
