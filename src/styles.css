@@ -338,9 +338,17 @@ form {
     flex-wrap: wrap;
   }
 
+  .project-card {
+    margin: 50px;
+  }
+
   .project-img {
-    width: 275px;
-    height: 250px;
+    width: 475px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 25px;
+
+    
   }
 
   .project-descriptions {
@@ -356,6 +364,7 @@ form {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    margin-bottom: 25px;
   }
 
 
@@ -410,8 +419,8 @@ form {
   }
 
   .project-img {
-    width: 275px;
-    height: 250px;
+    width: 375px;
+    height: 350px;
   }
 
   .project-descriptions {
