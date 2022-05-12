@@ -336,7 +336,6 @@ form {
   .project-container {
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .project-img {
@@ -402,31 +401,6 @@ form {
 /* PROJECTS SECTION */
 
 
-@media only screen and (min-width: 1001px) {
-  
-  #project-container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
-    padding: 80px;
-    flex-wrap: wrap;
-
-  }
-
-
-  .project-description {
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .project-link {
-    text-decoration: none;
-    color: rgb(255, 189, 89);
-  }
-
-}
-
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .project-container {
@@ -455,6 +429,33 @@ form {
     text-align: center;
   }
 }
+
+
+@media only screen and (min-width: 1001px) {
+  
+  #project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    padding: 80px;
+    flex-wrap: wrap;
+
+  }
+
+
+  .project-description {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: rgb(255, 189, 89);
+  }
+
+}
+
 
 /* CONTACT SECTION */
 
