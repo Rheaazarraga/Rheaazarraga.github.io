@@ -183,17 +183,18 @@ a.hover-text-contact:hover {
 /* SKILLS */
 
 .skills-container {
-  border: solid 5px red;
-  display: flex;
+  /* border: solid 5px red; */
+  display: grid;
+  grid-auto-rows: 150px;
   justify-content: center;
+  text-align: center;
   align-items: center;
 
 }
 
-.skills {
-  border: solid 5px blue;
-  display: flex;
-  align-items: center;
+.skills-grid{
+  /* border: solid 5px blue; */
+
 }
 
 
