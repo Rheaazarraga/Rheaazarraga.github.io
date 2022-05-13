@@ -48,11 +48,6 @@ li {
 }
 
 
-/* li:hover {
-  color: rgb(119, 201, 216)
-} */
-
-
 h1 {
   font-size: 90px;
   margin: 0;
@@ -190,7 +185,6 @@ a.hover-text-contact:hover {
 
 
 .projects {
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -213,7 +207,6 @@ a.hover-text-contact:hover {
 
 
 .project-img {
-  /* margin-top: 25px; */
   width: 430px;
   height: 400px;
   object-fit: cover;
@@ -230,6 +223,22 @@ a.hover-text-contact:hover {
 .project-link {
   text-decoration: none;
   color: rgb(255, 189, 89);
+}
+
+
+/* SKILLS */
+
+.skills {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px;
+
+}
+
+.prog-lang-icon {
+  display: flex;
+  align-items: center;
 }
 
 /* CONTACT  */
