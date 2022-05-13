@@ -180,6 +180,22 @@ a.hover-text-contact:hover {
   align-items: center;
 }
 
+/* SKILLS */
+
+.skills-container {
+  border: solid 5px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.skills {
+  border: solid 5px blue;
+  display: flex;
+  align-items: center;
+}
+
 
 /* PROJECTS */
 
@@ -226,20 +242,6 @@ a.hover-text-contact:hover {
 }
 
 
-/* SKILLS */
-
-.skills {
-  display: flex;
-  justify-content: center;
-
-  padding: 40px;
-
-}
-
-.prog-lang-icon {
-  display: flex;
-  align-items: center;
-}
 
 /* CONTACT  */
 
