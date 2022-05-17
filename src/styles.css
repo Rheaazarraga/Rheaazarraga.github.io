@@ -248,8 +248,9 @@ a.hover-text-contact:hover {
 }
 
 
-form {
-  width: 40%;
+.contact-form {
+  flex: content;
+  text-align: center;
 }
 
 .form-button {
