@@ -1,5 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0 ;
 }
 
 section {
@@ -398,11 +400,11 @@ a.hover-text-contact:hover {
 /* PROJECTS SECTION */
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
-  .project-container {
+  /* .project-container {
     display: flex;
     flex-wrap: wrap;
 
-  }
+  } */
 
   /* .project-img {
     width: 70%;
