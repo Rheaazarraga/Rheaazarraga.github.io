@@ -220,7 +220,7 @@ a.hover-text-contact:hover {
 
 
 .project-img {
-  box-shadow: 4px 4px 8px #333;
+  box-shadow: 0 0 16px -5px #B5A9FF;
   transition: 500ms;
   width: 430px;
   height: 400px;
@@ -229,7 +229,7 @@ a.hover-text-contact:hover {
 }
 
 .project-img:hover {
-  box-shadow: 4px 4px 10px #444;
+  box-shadow: 0 0 32px -10px #B5A9FF;
 }
 
 
