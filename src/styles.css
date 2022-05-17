@@ -216,7 +216,6 @@ a.hover-text-contact:hover {
   width: 25rem;
   height: 43rem;
   border-radius: 50px;
-  /* margin: 15px; */
 }
 
 
@@ -416,7 +415,6 @@ a.hover-text-contact:hover {
 
   }
 
-
   .project-img:hover {
     box-shadow: 0 0 32px -10px #B5A9FF;
   }
@@ -451,8 +449,6 @@ a.hover-text-contact:hover {
   }
 
   .project-img {
-    /* width: 450px;
-    height: 450px; */
     box-shadow: 0 0 16px -5px #B5A9FF;
     transition: 500ms;
     object-fit: cover;
