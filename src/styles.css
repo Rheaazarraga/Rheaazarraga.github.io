@@ -503,6 +503,6 @@ a.hover-text-contact:hover {
 @media only screen and (min-width: 280px) and (max-width: 768px) {
   #contact {
     display: block;
-    flex-wrap: wrap;
+    text-align: center;    
   }
 }
