@@ -220,10 +220,16 @@ a.hover-text-contact:hover {
 
 
 .project-img {
+  box-shadow: 4px 4px 8px #333;
+  transition: 500ms;
   width: 430px;
   height: 400px;
   object-fit: cover;
   border-radius: 25px;
+}
+
+.project-img:hover {
+  box-shadow: 4px 4px 10px #444;
 }
 
 
