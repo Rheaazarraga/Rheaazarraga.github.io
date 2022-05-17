@@ -29,7 +29,7 @@ nav {
 }
 
 
-ul {
+ul.nav-list {
   display: flex;
   list-style-type: none;
   width: 500px;
@@ -313,7 +313,7 @@ form {
     align-self: flex-end;
   }
 
-  ul {
+  ul.nav-list {
     display: none;
     background-color: #22232c;
     margin: 0px;
