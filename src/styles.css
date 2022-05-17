@@ -407,17 +407,19 @@ a.hover-text-contact:hover {
 /* PROJECTS SECTION */
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
-  /* .project-container {
-    display: flex;
-    flex-wrap: wrap;
 
-  } */
-
-  /* .project-img {
-    width: 70%;
-    height: 35%;
+  .project-img {
+    box-shadow: 0 0 16px -5px #B5A9FF;
+    transition: 500ms;
     object-fit: cover;
-  } */
+    border-radius: 25px;
+
+  }
+
+
+  .project-img:hover {
+    box-shadow: 0 0 32px -10px #B5A9FF;
+  }
 
   .project-descriptions {
     display: flex;
@@ -451,9 +453,16 @@ a.hover-text-contact:hover {
   .project-img {
     /* width: 450px;
     height: 450px; */
+    box-shadow: 0 0 16px -5px #B5A9FF;
+    transition: 500ms;
     object-fit: cover;
     border-radius: 25px;
 
+  }
+
+
+  .project-img:hover {
+    box-shadow: 0 0 32px -10px #B5A9FF;
   }
 
   .project-descriptions {
@@ -483,7 +492,19 @@ a.hover-text-contact:hover {
     flex-wrap: wrap;
 
   }
+  
+  .project-img {
+    box-shadow: 0 0 16px -5px #B5A9FF;
+    transition: 500ms;
+    object-fit: cover;
+    border-radius: 25px;
 
+  }
+
+
+  .project-img:hover {
+    box-shadow: 0 0 32px -10px #B5A9FF;
+  }
 
   .project-description {
     font-size: 15px;
