@@ -249,11 +249,13 @@ a.hover-text-contact:hover {
 
 
 .contact-form {
-  flex: content;
+  display: inline-block;
   text-align: center;
 }
 
 .form-button {
+  display: block;
+
   width: 150px;
   height: 45px;
   border: none;
@@ -279,6 +281,7 @@ a.hover-text-contact:hover {
 
 
 .input-field {
+  display: block;
   width: 375px;
   height: 50px;
   margin-top: 20px;
