@@ -80,19 +80,11 @@ a {
   color: white;
 }
 
-
-a.hover-text-about:hover {
+/* NAV */
+a[class*="hover-text-"] { transition: 1200ms; }
+a[class*="hover-text-"]:hover {
   filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
-
-a.hover-text-projects:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
-}
-
-a.hover-text-contact:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
-}
-
 
 .hero-area {
   display: flex;
@@ -115,23 +107,10 @@ a.hover-text-contact:hover {
   margin: 20px;
 }
 
-
-.linkedin:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
+a[class*="hover-text-"], #social-icons a { transition: 1200ms; }
+a[class*="hover-text-"]:hover, #social-icons a:hover {
+  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(3);
 }
-
-.github:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
-}
-
-.email:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
-}
-
-.resume:hover {
-  filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4);
-}
-
 
 /* BUTTON */
 
