@@ -149,6 +149,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 
 .personal-info {
+  max-width: 75vw;
   font-size: 25px;
   word-spacing: 8px;
 }
@@ -246,7 +247,6 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 .form-button {
   display: block;
-
   width: 150px;
   height: 45px;
   border: none;
@@ -272,6 +272,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 
 .input-field {
+  font-family: 'Poppins', sans-serif;
   display: block;
   width: min(300px, 90vw);
   height: 50px;
@@ -284,6 +285,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 }
 
 .textarea-field {
+  font-family: 'Poppins', sans-serif;
   width: min(320px, 90vw);
   height: 150px;
   margin-top: 20px;
