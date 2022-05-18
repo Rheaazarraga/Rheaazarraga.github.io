@@ -115,12 +115,12 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 /* BUTTON */
 
 .button {
-  width: 200px;
-  height: 55px;
+  width: 150px;
+  height: 50px;
   border-radius: 35px;
   background-color: rgb(228, 104, 145);
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   padding-top: 5px;
   margin-top: 20px;
@@ -267,7 +267,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 .form-button:active {
   background-color: #B5A9FF;
-  color: #808080;
+  color: white;
 }
 
 
