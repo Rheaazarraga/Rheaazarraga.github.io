@@ -49,6 +49,11 @@ li {
   text-decoration: none;
 }
 
+h1, h2, h3 {
+  text-shadow: 
+    1px 1px 0 #222,
+    2px 2px 0 rgb(228, 104, 145);
+}
 
 h1 {
   font-size: 90px;
@@ -221,7 +226,7 @@ a.hover-text-contact:hover {
 
 .project-img {
   box-shadow: 0 0 16px -5px #B5A9FF;
-  transition: 500ms;
+  transition: 1000ms;
   width: 430px;
   height: 400px;
   object-fit: cover;
@@ -409,7 +414,7 @@ a.hover-text-contact:hover {
 
   .project-img {
     box-shadow: 0 0 16px -5px #B5A9FF;
-    transition: 500ms;
+    transition: 1000ms;
     object-fit: cover;
     border-radius: 25px;
 
@@ -450,7 +455,7 @@ a.hover-text-contact:hover {
 
   .project-img {
     box-shadow: 0 0 16px -5px #B5A9FF;
-    transition: 500ms;
+    transition: 1000ms;
     object-fit: cover;
     border-radius: 25px;
 
@@ -491,7 +496,7 @@ a.hover-text-contact:hover {
   
   .project-img {
     box-shadow: 0 0 16px -5px #B5A9FF;
-    transition: 500ms;
+    transition: 1000ms;
     object-fit: cover;
     border-radius: 25px;
 
