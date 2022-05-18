@@ -187,6 +187,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 
