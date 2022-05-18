@@ -390,6 +390,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   .skills-container {
     padding-top: 50px;
     display: grid;
+    padding: 10px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -409,7 +410,6 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   .project-img {
     box-shadow: 0 0 16px -5px #B5A9FF;
     transition: 500ms;
-    object-fit: cover;
     border-radius: 25px;
 
   }
