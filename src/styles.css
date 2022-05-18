@@ -332,12 +332,13 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     display: none;
   }
 
+
 }
 
 
 /* HERO AND SOCIALS */
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
 
 
   #hero-area {
@@ -348,9 +349,12 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
   }
 
+
   #hero-text {
     margin-bottom: 30px;
+    font-size: 10vw;
   }
+
 
   #social-icons {
     display: inline-flex;
@@ -363,7 +367,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 /* ABOUT SECTION */
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
   #about-me {
     font-size: 15px;
     display: flex;
@@ -389,7 +393,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 /* PROJECTS SECTION */
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
 
   .project-img {
     box-shadow: 0 0 16px -5px #B5A9FF;
@@ -501,7 +505,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 /* CONTACT SECTION */
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 768px) {
   #contact {
     display: block;
     text-align: center;    
