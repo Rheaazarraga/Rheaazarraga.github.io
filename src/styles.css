@@ -155,7 +155,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 
 .headshot {
-  width: 350px;
+  width: min(250px, 90vw);
   border-radius: 150px;
   margin: 10px;
 }
@@ -197,8 +197,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 
 .project-card {
-  width: 25rem;
-  height: 43rem;
+  width: min(250px, 90vw);
   border-radius: 50px;
 }
 
@@ -206,9 +205,9 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 .project-img {
   box-shadow: 0 0 16px -5px #B5A9FF;
   transition: 1000ms;
-  width: 430px;
-  height: 400px;
-  object-fit: cover;
+  width: min(250px, 90vw);
+  height: min(285px, 90vh);
+  /* object-fit: cover; */
   border-radius: 25px;
 }
 
@@ -274,7 +273,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 .input-field {
   display: block;
-  width: 375px;
+  width: min(300px, 90vw);
   height: 50px;
   margin-top: 20px;
   padding-left: 10px;
@@ -285,7 +284,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 }
 
 .textarea-field {
-  width: 400px;
+  width: min(320px, 90vw);
   height: 150px;
   margin-top: 20px;
   padding-top: 10px;
@@ -347,6 +346,18 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     overflow: hidden;
     justify-content: center;
 
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  
+  p.title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 300;
   }
 
 
