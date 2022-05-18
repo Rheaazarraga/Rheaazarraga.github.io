@@ -26,8 +26,21 @@ section {
 .logo {
   height: 85px;
   margin: 30px;
+  animation: 2s infinite forwards good-dog;
+  position: relative;
 }
 
+@keyframes good-dog {
+  90% {
+    transform: translate(0) rotate(0) scale(1);
+  } 91% {
+    transform: rotate(-5deg) scaleY(0.9);
+  } 95% {
+    transform: rotate(15deg) translateY(-15px);
+  } 100% {
+    transform: translateY(0) rotate(0);
+  }
+}
 
 nav {
   display: flex;
