@@ -231,7 +231,6 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   box-shadow: 0 0 16px -5px #B5A9FF;
   transition: 500ms;
   width: min(275px, 90%);
-  /* height: min(285px, 90vh); */
   border-radius: 25px;
 }
 
