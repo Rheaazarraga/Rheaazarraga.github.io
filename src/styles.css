@@ -236,6 +236,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 .project-img:hover {
   box-shadow: 0 0 32px -10px #B5A9FF;
+  transform: scale(1.2);
 }
 
 
