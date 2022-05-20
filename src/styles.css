@@ -435,6 +435,12 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
   }
 
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+
 }
 
 
