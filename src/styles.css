@@ -98,6 +98,7 @@ a {
 }
 
 /* NAV */
+
 a[class*="hover-text-"] { transition: 1200ms; }
 a[class*="hover-text-"]:hover {
   filter: invert(0.5) sepia(1) hue-rotate(280deg) saturate(3);
@@ -207,8 +208,8 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   transform: scale(1.2);
 }
 
-/* PROJECTS */
 
+/* PROJECTS */
 
 .projects {
   display: flex;
@@ -371,11 +372,6 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     height: 40px;
     transform: scale(0.1);
   }
-
-  /* .logo {
-    display: none; 
-    margin: 0; padding: 0;
-  } */ 
 
 }
 
