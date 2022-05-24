@@ -197,7 +197,15 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 
 }
 
+.skills > a > * {
+  justify-content: center;
+  transform: scale(1);
+  transition: 200ms;
+}
 
+.skills > a > *:hover {
+  transform: scale(1.2);
+}
 
 /* PROJECTS */
 
