@@ -468,6 +468,33 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     gap: 20px;
   }
 
+  #scroll-btn {
+    display: none;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 30px;
+    color: rgb(228, 104, 145);
+    opacity: 0.6;
+  }
+  
+  #scroll-btn:hover {
+    color: rgb(225, 189, 89);
+    opacity: 1;
+  }
+  
+  #scroll-btn:active {
+    color: #B5A9FF;
+    opacity: 1;
+  
+  }
+
 }
 
 
