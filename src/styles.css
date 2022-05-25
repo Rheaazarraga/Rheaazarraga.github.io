@@ -158,8 +158,8 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   display: none;
   background-color: transparent;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 0;
+  right: 0;
   z-index: 99;
   border: none;
   outline: none;
