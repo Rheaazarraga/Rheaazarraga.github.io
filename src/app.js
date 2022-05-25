@@ -10,11 +10,11 @@ hamburgerButton.addEventListener('click', toggleButton);
 // get the back to top button
 scrollBtn = document.getElementById('scroll-btn');
 
-// when user scrolls 20 px down from the top of the document, show the back to top button
+// when user scrolls 75 px down from the top of the document, show the back to top button
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
     scrollBtn.style.display = 'block';
   } else {
     scrollBtn.style.display = 'none';
