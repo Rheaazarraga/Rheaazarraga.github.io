@@ -164,7 +164,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+  padding-right: 5px;
   border-radius: 100%;
   font-size: 30px;
   color: rgb(228, 104, 145);
@@ -260,7 +260,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
 .project-card > a {
   display: flex;
   align-items: center;
-  justify-content: ;
+  justify-content: center;
   height: 240px;
 }
 
@@ -410,7 +410,6 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     border: none;
     outline: none;
     cursor: pointer;
-    /* padding: 15px; */
     border-radius: 100%;
     font-size: 30px;
     color: rgb(228, 104, 145);
