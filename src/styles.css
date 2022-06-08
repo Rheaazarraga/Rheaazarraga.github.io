@@ -397,7 +397,7 @@ a[class*="hover-text-"]:hover, #social-icons a:hover {
     margin: 0;
     width: 40px;
     height: 40px;
-    transform: scale(0.1);
+    /* transform: scale(0.1); */
   }
 
   #scroll-btn {
